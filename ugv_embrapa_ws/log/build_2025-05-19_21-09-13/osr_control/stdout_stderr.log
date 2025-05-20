@@ -1,0 +1,66 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/osr_control/osr_control.egg-info
+writing ../../build/osr_control/osr_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/osr_control/osr_control.egg-info/dependency_links.txt
+writing entry points to ../../build/osr_control/osr_control.egg-info/entry_points.txt
+writing requirements to ../../build/osr_control/osr_control.egg-info/requires.txt
+writing top-level names to ../../build/osr_control/osr_control.egg-info/top_level.txt
+writing manifest file '../../build/osr_control/osr_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/osr_control/osr_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/osr_control/osr_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/__init__.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/ina_260_pub.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/joy_extras.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/roboclaw.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/roboclaw_wrapper.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/rover.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/servo_control.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/roboclaw_wrapper_nomiddle.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+copying osr_control/rover_nomiddle.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control
+running install
+running install_lib
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/__init__.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/ina_260_pub.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/joy_extras.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/roboclaw.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/roboclaw_wrapper.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/rover.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/servo_control.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/roboclaw_wrapper_nomiddle.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+copying /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build/lib/osr_control/rover_nomiddle.py -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/ina_260_pub.py to ina_260_pub.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/joy_extras.py to joy_extras.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/roboclaw.py to roboclaw.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/roboclaw_wrapper.py to roboclaw_wrapper.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/rover.py to rover.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/servo_control.py to servo_control.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/roboclaw_wrapper_nomiddle.py to roboclaw_wrapper_nomiddle.cpython-310.pyc
+byte-compiling /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control/rover_nomiddle.py to rover_nomiddle.cpython-310.pyc
+running install_data
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/ament_index
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/ament_index/resource_index
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/ament_index/resource_index/packages
+copying resource/osr_control -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/launch
+creating /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/config
+running install_egg_info
+Copying ../../build/osr_control/osr_control.egg-info to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages/osr_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ina260 script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing joy_extras script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing roboclaw_wrapper script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing roboclaw_wrapper_nm script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing rover script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing rover_nm script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+Installing servo_control script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/osr_control
+writing list of installed files to '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/install.log'

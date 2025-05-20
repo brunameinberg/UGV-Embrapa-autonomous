@@ -1,0 +1,389 @@
+[0.065s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b87ed955e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b87eda4ee00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b87eda4ee00>>, mixin_verb=('build',))
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_autonomous) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/osr_autonomous' with type 'ros.ament_python' and name 'osr_autonomous'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_bringup) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/osr_bringup' with type 'ros.ament_cmake' and name 'osr_bringup'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_control) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/osr_control' with type 'ros.ament_python' and name 'osr_control'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_gazebo) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/osr_gazebo' with type 'ros.ament_cmake' and name 'osr_gazebo'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/osr_interfaces) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/osr_interfaces' with type 'ros.ament_cmake' and name 'osr_interfaces'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.198s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.198s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 351 installed packages in /opt/ros/humble
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_autonomous' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'osr_autonomous' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous', 'merge_install': False, 'path': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'osr_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup', 'merge_install': False, 'path': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'osr_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo', 'merge_install': False, 'path': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'osr_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces', 'merge_install': False, 'path': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'osr_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'osr_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control', 'merge_install': False, 'path': '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_control', 'symlink_install': False, 'test_result_base': None}
+[0.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_interfaces' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_interfaces'
+[0.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous' with build type 'ament_python'
+[0.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_autonomous', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/ament_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/ament_prefix_path.dsv'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/ament_prefix_path.sh'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_bringup' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_bringup'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_interfaces -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces
+[0.415s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_bringup -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous': PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_autonomous build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/install.log --single-version-externally-managed install_data
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_bringup -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup -- -j8 -l8
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup -- -j8 -l8
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous' returned '0': PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_autonomous build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/install.log --single-version-externally-managed install_data
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous' for CMake module files
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous' for CMake config files
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/pkgconfig/osr_autonomous.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages'
+[0.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_autonomous', 'pythonpath')
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/pythonpath.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/pythonpath.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/hook/pythonpath.sh'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_autonomous)
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/package.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/package.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/package.bash'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/osr_autonomous/package.zsh'
+[0.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/share/colcon-core/packages/osr_autonomous)
+[0.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_bringup)
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup' for CMake module files
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup' for CMake config files
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_bringup', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/lib/pkgconfig/osr_bringup.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/lib/python3.10/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.sh'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.bash'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.zsh'
+[0.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/colcon-core/packages/osr_bringup)
+[0.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_bringup)
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup' for CMake module files
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup' for CMake config files
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_bringup', 'cmake_prefix_path')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/hook/cmake_prefix_path.sh'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/bin'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/lib/pkgconfig/osr_bringup.pc'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/lib/python3.10/site-packages'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/colcon-core/packages/osr_bringup)
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_interfaces -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces -- -j8 -l8
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo -- -j8 -l8
+[3.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces -- -j8 -l8
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces
+[3.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_interfaces)
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces' for CMake module files
+[3.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_interfaces
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces' for CMake config files
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_interfaces', 'cmake_prefix_path')
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.dsv'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.sh'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib'
+[3.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_interfaces', 'ld_library_path_lib')
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.ps1'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.sh'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/bin'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib/pkgconfig/osr_interfaces.pc'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib/python3.10/site-packages'
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/bin'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.ps1'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.dsv'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.sh'
+[3.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.bash'
+[3.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.zsh'
+[3.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/colcon-core/packages/osr_interfaces)
+[3.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_interfaces)
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces' for CMake module files
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces' for CMake config files
+[3.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_interfaces', 'cmake_prefix_path')
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.ps1'
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.dsv'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/cmake_prefix_path.sh'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib'
+[3.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_interfaces', 'ld_library_path_lib')
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/hook/ld_library_path_lib.sh'
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/bin'
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib/pkgconfig/osr_interfaces.pc'
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib/python3.10/site-packages'
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/bin'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.ps1'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.dsv'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.bash'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/osr_interfaces/package.zsh'
+[3.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/share/colcon-core/packages/osr_interfaces)
+[3.790s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_control' with build type 'ament_python'
+[3.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_control', 'ament_prefix_path')
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/ament_prefix_path.ps1'
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/ament_prefix_path.dsv'
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/ament_prefix_path.sh'
+[3.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.961s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_control'
+[3.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_control': AMENT_PREFIX_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_control build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control' for CMake module files
+[4.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_control' returned '0': AMENT_PREFIX_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_control build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control' for CMake config files
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib'
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/bin'
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/pkgconfig/osr_control.pc'
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/lib/python3.10/site-packages'
+[4.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_control', 'pythonpath')
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/pythonpath.ps1'
+[4.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/pythonpath.dsv'
+[4.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/hook/pythonpath.sh'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/bin'
+[4.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_control)
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/package.ps1'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/package.dsv'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/package.sh'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/package.bash'
+[4.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/osr_control/package.zsh'
+[4.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control/share/colcon-core/packages/osr_control)
+[12.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo -- -j8 -l8
+[12.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo
+[12.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_gazebo)
+[12.557s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo' for CMake module files
+[12.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo
+[12.558s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo' for CMake config files
+[12.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_gazebo', 'cmake_prefix_path')
+[12.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.ps1'
+[12.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.dsv'
+[12.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.sh'
+[12.559s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib'
+[12.559s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/bin'
+[12.559s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/pkgconfig/osr_gazebo.pc'
+[12.559s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/python3.10/site-packages'
+[12.559s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/bin'
+[12.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.ps1'
+[12.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.dsv'
+[12.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.sh'
+[12.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.bash'
+[12.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.zsh'
+[12.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/colcon-core/packages/osr_gazebo)
+[12.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_gazebo)
+[12.561s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo' for CMake module files
+[12.562s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo' for CMake config files
+[12.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_gazebo', 'cmake_prefix_path')
+[12.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.ps1'
+[12.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.dsv'
+[12.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.sh'
+[12.562s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib'
+[12.563s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/bin'
+[12.563s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/pkgconfig/osr_gazebo.pc'
+[12.563s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/python3.10/site-packages'
+[12.563s] Level 1:colcon.colcon_core.environment:checking '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/bin'
+[12.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.ps1'
+[12.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.dsv'
+[12.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.sh'
+[12.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.bash'
+[12.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.zsh'
+[12.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/colcon-core/packages/osr_gazebo)
+[12.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.565s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.568s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.568s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.568s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.576s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/local_setup.ps1'
+[12.577s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/_local_setup_util_ps1.py'
+[12.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/setup.ps1'
+[12.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/local_setup.sh'
+[12.579s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/_local_setup_util_sh.py'
+[12.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/setup.sh'
+[12.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/local_setup.bash'
+[12.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/setup.bash'
+[12.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/local_setup.zsh'
+[12.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/setup.zsh'

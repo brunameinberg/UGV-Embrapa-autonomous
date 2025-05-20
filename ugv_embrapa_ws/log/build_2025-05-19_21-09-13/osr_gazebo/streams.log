@@ -1,0 +1,102 @@
+[0.185s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo
+[0.219s] -- The C compiler identification is GNU 11.4.0
+[0.257s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.566s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.585s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.587s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.702s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.724s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.726s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.790s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.816s] -- Looking for pthread.h
+[0.873s] -- Looking for pthread.h - found
+[0.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.922s] -- Found Threads: TRUE  
+[0.949s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.955s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.966s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.971s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.972s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.972s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.032s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.078s] -- Configuring done
+[1.087s] -- Generating done
+[1.091s] -- Build files have been written to: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo
+[1.099s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo
+[1.100s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo -- -j8 -l8
+[1.134s] [ 50%] [32mBuilding CXX object CMakeFiles/osr_controller.dir/src/osr_controller.cpp.o[0m
+[1.294s] In file included from [01m[K/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_gazebo/src/osr_controller.cpp:13[m[K:
+[1.294s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.294s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.294s]       |  [01;35m[K^~~~~~~[m[K
+[11.616s] [100%] [32m[1mLinking CXX executable osr_controller[0m
+[12.232s] [100%] Built target osr_controller
+[12.239s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo -- -j8 -l8
+[12.240s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo
+[12.245s] -- Install configuration: ""
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//launch
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//launch/empty_world.launch.py
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//launch/rviz.launch.py
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//config
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//config/controller_velocity.yaml
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//urdf
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//urdf/gazebo.urdf.xacro
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//urdf/insert_transmission.urdf.xacro
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//urdf/osr.urdf.xacro
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/arm.stl
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/body.stl
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/body_axis.stl
+[12.245s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/box_link.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_final.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_front.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_middle.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_rear.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_front_1.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_middle_1.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/turn_L.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/turn_R.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/turn_left_test.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/turn_right_test.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/wheel.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_left_2.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_right_2.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//meshes/wheel_middle_left.stl
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//rviz
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo//rviz/rviz_settings.rviz
+[12.246s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/osr_gazebo/osr_controller
+[12.315s] -- Set runtime path of "/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/lib/osr_gazebo/osr_controller" to ""
+[12.315s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/ament_index/resource_index/package_run_dependencies/osr_gazebo
+[12.315s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/ament_index/resource_index/parent_prefix_path/osr_gazebo
+[12.315s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.sh
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.dsv
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/environment/path.sh
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/environment/path.dsv
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/local_setup.bash
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/local_setup.sh
+[12.316s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/local_setup.zsh
+[12.317s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/local_setup.dsv
+[12.317s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.dsv
+[12.317s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/ament_index/resource_index/packages/osr_gazebo
+[12.317s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig.cmake
+[12.317s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig-version.cmake
+[12.318s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_gazebo/share/osr_gazebo/package.xml
+[12.319s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_gazebo
