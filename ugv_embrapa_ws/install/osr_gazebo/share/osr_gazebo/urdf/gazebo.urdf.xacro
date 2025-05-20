@@ -152,5 +152,59 @@
         </sensor>
     </gazebo>
 
+      <!--Lidar-->
+    <gazebo reference="lidar_link">
+      <sensor name="laser" type="ray">
+        <pose> 0 0 0 0 0 0 </pose>
+        <visualize>true</visualize>
+        <update_rate>10</update_rate>
+        <ray> 
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <min_angle>-3.14</min_angle>
+              <max_angle>3.14</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.3</min>
+            <max>12</max>
+          </range>
+        </ray>
+        <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <argument>~/out:=scan</argument>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frame_name>lidar_link</frame_name>
+        </plugin>
+      </sensor>
+    </gazebo>
+
+    <!-- Camera-->
+    <gazebo reference="camera_link">
+          <sensor name="camera" type="camera">
+              <pose> 0 0 0 0 0 0 </pose>
+              <visualize>true</visualize>
+              <update_rate>10</update_rate>
+              <camera>
+                  <horizontal_fov>1.089</horizontal_fov>
+                  <image>
+                      <format>R8G8B8</format>
+                      <width>640</width>
+                      <height>480</height>
+                  </image>
+                  <clip>
+                      <near>0.05</near>
+                      <far>8.0</far>
+                  </clip>
+              </camera>
+              <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                  <frame_name>camera_link</frame_name>
+              </plugin>
+          </sensor>
+      </gazebo>
+
+
 
 </robot>

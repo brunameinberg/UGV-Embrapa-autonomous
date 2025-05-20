@@ -499,6 +499,27 @@
 
     <link name="imu_link"></link>
 
+    <!-- Lidar -->
+    <link name="lidar_link">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>                
+            <cylinder length="0.03" radius="0.03"/>
+        </geometry>
+        </visual>
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>                
+            <cylinder length="0.03" radius="0.03"/>
+        </geometry>
+        </collision>
+    </link>
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.1 0 0.080" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+    </joint>
+
     <xacro:insert_velocity_transmission name="rear_wheel_joint_right"/>
     <xacro:insert_velocity_transmission name="rear_wheel_joint_left"/>
     <!--<xacro:insert_velocity_transmission name="middle_wheel_joint_right"/>

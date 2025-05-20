@@ -1,0 +1,28 @@
+[0.186s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup -- -j8 -l8
+[0.210s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup -- -j8 -l8
+[0.217s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup
+[0.222s] -- Install configuration: ""
+[0.222s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/launch
+[0.222s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/launch/.gitignore
+[0.222s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/launch/osr_launch.py
+[0.222s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/config
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/config/osr_params.yaml
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/config/osr_ws.code-workspace
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/config/roboclaw_params.yaml
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/config/roboclaw_params_nomiddle.yaml
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/ament_index/resource_index/package_run_dependencies/osr_bringup
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/ament_index/resource_index/parent_prefix_path/osr_bringup
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/environment/path.sh
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/environment/path.dsv
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/local_setup.bash
+[0.223s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/local_setup.sh
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/local_setup.zsh
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/local_setup.dsv
+[0.224s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.dsv
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/ament_index/resource_index/packages/osr_bringup
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/cmake/osr_bringupConfig.cmake
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/cmake/osr_bringupConfig-version.cmake
+[0.224s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_bringup/share/osr_bringup/package.xml
+[0.225s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_bringup

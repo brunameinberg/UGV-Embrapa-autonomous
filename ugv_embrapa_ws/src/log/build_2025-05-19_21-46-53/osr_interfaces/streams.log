@@ -1,0 +1,195 @@
+[0.015s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces -- -j8 -l8
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_generator_c[0m
+[0.198s] [  2%] Built target osr_interfaces__cpp
+[0.198s] [ 12%] Built target osr_interfaces__rosidl_generator_c
+[0.198s] [ 12%] Built target ament_cmake_python_copy_osr_interfaces
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_cpp[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_introspection_c[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_c[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.199s] [ 25%] Built target osr_interfaces__rosidl_typesupport_introspection_c
+[0.200s] [ 34%] Built target osr_interfaces__rosidl_typesupport_c
+[0.200s] [ 44%] Built target osr_interfaces__rosidl_typesupport_cpp
+[0.200s] [ 55%] Built target osr_interfaces__rosidl_typesupport_fastrtps_c
+[0.201s] [ 65%] Built target osr_interfaces__rosidl_typesupport_introspection_cpp
+[0.201s] [ 76%] Built target osr_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.201s] [ 76%] Built target osr_interfaces
+[0.202s] [ 78%] Built target osr_interfaces__py
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_generator_py[0m
+[0.202s] [ 87%] Built target osr_interfaces__rosidl_generator_py
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_c__pyext[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target osr_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.202s] [ 91%] Built target osr_interfaces__rosidl_typesupport_c__pyext
+[0.202s] [ 95%] Built target osr_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.202s] [100%] Built target osr_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.303s] running egg_info
+[0.304s] writing osr_interfaces.egg-info/PKG-INFO
+[0.304s] writing dependency_links to osr_interfaces.egg-info/dependency_links.txt
+[0.304s] writing top-level names to osr_interfaces.egg-info/top_level.txt
+[0.306s] reading manifest file 'osr_interfaces.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'osr_interfaces.egg-info/SOURCES.txt'
+[0.324s] [100%] Built target ament_cmake_python_build_osr_interfaces_egg
+[0.332s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --build /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces -- -j8 -l8
+[0.333s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces
+[0.338s] -- Install configuration: ""
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/ament_index/resource_index/rosidl_interfaces/osr_interfaces
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/status.h
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__functions.c
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__functions.h
+[0.339s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__struct.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__functions.c
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__functions.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__struct.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__functions.c
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__functions.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__struct.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_drive.h
+[0.340s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_corner.h
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/library_path.sh
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/library_path.dsv
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_generator_c.so
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.341s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_fastrtps_c.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_fastrtps_c.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.c
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_introspection_c.h
+[0.342s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.c
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_introspection_c.h
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.c
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_introspection_c.so
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_c.so
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/status.hpp
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__builder.hpp
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__struct.hpp
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__traits.hpp
+[0.343s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__builder.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__struct.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__traits.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__builder.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__struct.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__traits.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_drive.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_corner.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/dds_fastrtps
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_fastrtps_cpp.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.cpp
+[0.344s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_introspection_cpp.hpp
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.cpp
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_introspection_cpp.hpp
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.cpp
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_cpp.so
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/pythonpath.sh
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/pythonpath.dsv
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info
+[0.345s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.345s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.345s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.345s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/__init__.py
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_status.py
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_status_s.c
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_drive.py
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_drive_s.c
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_corner.py
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_corner_s.c
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/__init__.py
+[0.345s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_c.c
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/libosr_interfaces__rosidl_generator_py.so
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.346s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.365s] Listing '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces'...
+[0.365s] Listing '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg'...
+[0.368s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/lib/libosr_interfaces__rosidl_generator_py.so
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/Status.idl
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/CommandDrive.idl
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/CommandCorner.idl
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/Status.msg
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/CommandDrive.msg
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/msg/CommandCorner.msg
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/ament_index/resource_index/package_run_dependencies/osr_interfaces
+[0.369s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/ament_index/resource_index/parent_prefix_path/osr_interfaces
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/ament_prefix_path.sh
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/path.sh
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/environment/path.dsv
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/local_setup.bash
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/local_setup.sh
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/local_setup.zsh
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/local_setup.dsv
+[0.370s] -- Installing: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/package.dsv
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/ament_index/resource_index/packages/osr_interfaces
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cExport.cmake
+[0.370s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.371s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.371s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.371s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.371s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.372s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cExport.cmake
+[0.372s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.372s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cppExport.cmake
+[0.372s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.373s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.373s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.373s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.373s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cppExport.cmake
+[0.373s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_pyExport.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfacesConfig.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfacesConfig-version.cmake
+[0.374s] -- Up-to-date: /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_interfaces/share/osr_interfaces/package.xml
+[0.376s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_control:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/install/osr_autonomous:/opt/ros/humble /usr/bin/cmake --install /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/build/osr_interfaces

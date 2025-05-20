@@ -1,0 +1,21 @@
+[0.497s] Invoking command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous': PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_autonomous build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/install.log --single-version-externally-managed install_data
+[0.649s] running egg_info
+[0.649s] writing ../../build/osr_autonomous/osr_autonomous.egg-info/PKG-INFO
+[0.649s] writing dependency_links to ../../build/osr_autonomous/osr_autonomous.egg-info/dependency_links.txt
+[0.649s] writing entry points to ../../build/osr_autonomous/osr_autonomous.egg-info/entry_points.txt
+[0.649s] writing requirements to ../../build/osr_autonomous/osr_autonomous.egg-info/requires.txt
+[0.649s] writing top-level names to ../../build/osr_autonomous/osr_autonomous.egg-info/top_level.txt
+[0.651s] reading manifest file '../../build/osr_autonomous/osr_autonomous.egg-info/SOURCES.txt'
+[0.651s] writing manifest file '../../build/osr_autonomous/osr_autonomous.egg-info/SOURCES.txt'
+[0.651s] running build
+[0.651s] running build_py
+[0.652s] running install
+[0.652s] running install_lib
+[0.652s] running install_data
+[0.653s] running install_egg_info
+[0.654s] removing '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages/osr_autonomous-0.0.0-py3.10.egg-info' (and everything under it)
+[0.654s] Copying ../../build/osr_autonomous/osr_autonomous.egg-info to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages/osr_autonomous-0.0.0-py3.10.egg-info
+[0.654s] running install_scripts
+[0.669s] Installing gps_follower script to /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/osr_autonomous
+[0.669s] writing list of installed files to '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/install.log'
+[0.686s] Invoked command in '/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/src/osr_autonomous' returned '0': PYTHONPATH=/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/install/osr_autonomous/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/osr_autonomous build --build-base /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/build install --record /home/brunameinberg/Desktop/UGV-Embrapa-autonomous/ugv_embrapa_ws/build/osr_autonomous/install.log --single-version-externally-managed install_data
