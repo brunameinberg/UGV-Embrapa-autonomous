@@ -43,7 +43,9 @@ UGV-Embrapa-autonomous/
  
 - **osr_control**: código central que se comunica com os drivers de motor e escuta comandos.  
 - **osr_interfaces**: definições de mensagens customizadas.  
-- **osr_bringup**: arquivos de configuração e launch para inicializar o rover.  
+- **osr_bringup**: arquivos de configuração e launch para inicializar o rover.
+- **osr_gazebo**: arquivos xacro do rover.
+- **osr_autonomous**: algoritmos de navegação autônoma.
 
 
 ---
